@@ -70,6 +70,20 @@ This project demonstrates:
 - Data warehouse design
 - Business reporting using SQL
 
+  ## 📸 Output Screenshots
+
+### 🗄 Database Creation
+![Database](images/create_and_use_database.png)
+
+### 📊 Total Sales by Salesperson
+![Salesperson](images/total_sales_by_salesperson.png)
+
+### 📈 Monthly Sales Trend
+![Monthly Trend](images/monthly_sales_trend.png)
+
+### 🏆 Top 5 Best Selling Products
+![Top Products](images/top_5_best_selling_products.png)
+
   ## Author
   TANISHKA CHAWLA
 
