@@ -23,21 +23,21 @@ The project demonstrates data cleaning, transformation, and business analysis us
 
 
 
-# 📂 Database Structure
+## 📂 Database Structure
 
-# 1️⃣ sales_raw (Staging Table)
+### 1️⃣ sales_raw (Staging Table)
 Stores original raw data before transformation.
 
-# 2️⃣ customers (Dimension Table)
+### 2️⃣ customers (Dimension Table)
 Stores unique customer records.
 
-# 3️⃣ products (Dimension Table)
+### 3️⃣ products (Dimension Table)
 Stores product details including category and price.
 
-# 4️⃣ salespersons (Dimension Table)
+ ### 4️⃣ salespersons (Dimension Table)
 Stores salesperson information and region.
 
-# 5️⃣ orders (Fact Table)
+### 5️⃣ orders (Fact Table)
 Contains transactional data with foreign key relationships.
 
 ---
@@ -48,7 +48,7 @@ Contains transactional data with foreign key relationships.
 - Used ON DUPLICATE KEY UPDATE to handle duplicate records.
 - Implemented foreign key constraints for data integrity.
 
----
+
 
 ## 📊 Business Analysis Queries
 
@@ -61,14 +61,15 @@ The project includes reports such as:
 - Monthly Sales Trend
 - Region-wise Sales Analysis
 
----
+
 
 ## 🎯 Purpose of Project
 This project demonstrates:
 - ETL process
+-  Database normalization
+- Data warehouse design
+- Business reporting using SQL
 
   ## Author
   TANISHKA CHAWLA
-- Database normalization
-- Data warehouse design
-- Business reporting using SQL
+
